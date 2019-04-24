@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Comments extends Component {
+export default class Comments extends Component {
   render() {
     return(
       
