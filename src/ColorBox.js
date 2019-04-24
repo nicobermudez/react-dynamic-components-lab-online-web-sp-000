@@ -8,7 +8,9 @@ export default class ColorBox extends Component {
         {
           let opacity = this.props.opacity;
 
-          if(opacity >)
+          if(opacity >= 0.2) {
+            
+          }
         }
       </div>
     )
