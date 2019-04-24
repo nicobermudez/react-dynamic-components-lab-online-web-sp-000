@@ -10,6 +10,8 @@ export default class ColorBox extends Component {
 
           if(opacity >= 0.2) {
             <ColorBox opacity={opacity - 0.1} />
+          } else {
+            return null
           }
         }
       </div>
