@@ -6,7 +6,9 @@ export default class ColorBox extends Component {
     return (
       <div className="color-box" style={{opacity: 2}}>
         {
-          
+          let opacity = this.props.opacity;
+
+          if(opacity >)
         }
       </div>
     )
