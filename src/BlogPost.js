@@ -20,7 +20,7 @@ export default class BlogPost extends Component {
         I won't let you tilt me<br/>
         You only grew accustomed to the salt<br/>
         I was born in it<br/>
-        {this.props.comment}
+        {this.props.commentText}
       </div>
     );
   }
